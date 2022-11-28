@@ -1,7 +1,7 @@
-import { createStitches, globalCss } from "@stitches/react";
+import { createStitches } from "@stitches/react";
 import { blue, slate, blueDark, slateDark, blackA } from "@radix-ui/colors";
 
-const { styled, css, createTheme } = createStitches({
+const { styled, css, createTheme, globalCss } = createStitches({
 	theme: {
 		colors: {
 			...blue,
